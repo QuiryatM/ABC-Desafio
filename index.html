@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC-Desafío</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>ABC</h2>
+        <p>Letras vistas: <span id="contador">0</span></p>
+    </nav>
+
+    <button onclick="filtrar('vocales')">Vocales</button>
+    <button onclick="filtrar('todas')">Todas</button>
+
+    <div class="contenedor">
+
+        <div class="card" data-tipo="vocal" onclick="voltear(this)">
+            <div class="card-frente">
+                <h1>A</h1>
+            </div>
+            <div class="card-dorso">
+                <img src="https://img.freepik.com/vector-premium/avion-dibujos-animados-volando-cielo_601658-2839.jpg?semt=ais_incoming&w=740&q=80" alt="Avión">
+                <h3>Avión</h3>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="vocal" onclick="voltear(this)">
+            <div class="card-frente">
+                <h1>B</h1>
+            </div>
+            <div class="card-dorso">
+                <img src="" alt="Avión">
+                <h3>Avión</h3>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="vocal" onclick="voltear(this)">
+            <div class="card-frente">
+                <h1>C</h1>
+            </div>
+            <div class="card-dorso">
+                <img src="" alt="Avión">
+                <h3>Avión</h3>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="vocal" onclick="voltear(this)">
+            <div class="card-frente">
+                <h1>D</h1>
+            </div>
+            <div class="card-dorso">
+                <img src="" alt="Avión">
+                <h3>Avión</h3>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="vocal" onclick="voltear(this)">
+            <div class="card-frente">
+                <h1>E</h1>
+            </div>
+            <div class="card-dorso">
+                <img src="" alt="Avión">
+                <h3>Avión</h3>
+            </div>
+        </div>
+
+        <div class="card" data-tipo="vocal" onclick="voltear(this)">
+            <div class="card-frente">
+                <h1>F</h1>
+            </div>
+            <div class="card-dorso">
+                <img src="" alt="Avión">
+                <h3>Avión</h3>
+            </div>
+        </div>
+
+    </div>
+<footer>
+    <h3>Equipo</h3>
+    <p>Tu nombre y compañeros</p>
+</footer>
+<script src="app.js"></script>
+</body>
+
+</html>
