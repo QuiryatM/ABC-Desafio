@@ -1,4 +1,0 @@
-let contador = 0;
-
-
-
